@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+    padding: 0px 80px;
+    height: 3000px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-container {
+    display: flex;
+    height: 440px;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 6px rgb(77, 76, 76);
+    padding: 15px 50px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(54deg, rgba(0, 0, 0, 1) 0%, rgba(10, 190, 179, 1) 35%);
+    color: white;
+}
+
+.title-wrap {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.info span {
+    font-weight: 400;
+}
+
+.prof-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prof-img img {
+    width: 70%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*h*/
+
+.b {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.h {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.text-formatting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*next*/
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.formatting {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    height: 100%;
+    margin-right: 20px;
+}
+
+/*Team Tugas*/
+.tugas-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.tugas {
+    cursor: pointer;
+    height: 500px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px rgb(77, 76, 76);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(54deg, rgba(0, 0, 0, 1) 0%, rgba(10, 190, 179, 1) 35%);
+}
+
+.tugas h1 {
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.tugas img {
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*Video and Audio Con*/
+
+.video-audio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Video*/
+
+.video-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.iaw{
+    font-size: 26px;
+}
+
+/*Audio*/
+
+.audio-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*Forms*/
+
+.forms{
+    margin-top: 50px;
+}
+
+.forms h4{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.forms span{
+    font-size: 17px;
+}
+
+.input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.input:focus{
+    outline: none;
+    border: none;
+}
+
+.tableone{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/*Map*/
+
+.map {
+    margin-top: 200px;
+}
+
+.map h4{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ul{
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    margin-right: 10px;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.ol{
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    height: 100%;
+    border-radius: 6px;
+}
+
+
+
+
+
